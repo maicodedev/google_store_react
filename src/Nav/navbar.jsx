@@ -1,11 +1,13 @@
 import React from 'react';
 import {Link} from "react-router-dom"
-
+import "./navbar.css";
 const navbar = () => {
     return (
-        <nav>
-            <Link to="/"></Link> src="../assets/google-logo.png"/
-            <ul>
+        <nav className='navbar'>
+            <ul className='navbar-menu'>
+               <li>
+               <Link to="/"> <img src="src/assets/images/google-logo.png" alt="Logo" className='navbar-logo' /></Link>
+               </li>
                 <li>
                   <Link to="/phones">Phones</Link>
                 </li>
@@ -16,7 +18,7 @@ const navbar = () => {
                    <Link to="/watches">Watches</Link>
                 </li>
                 <li>
-                   <Link to="/smart home">Smart Home</Link>
+                   <Link to="/smarthome">Smart Home</Link>
                 </li>
                 <li>
                    <Link to="/accesories">Accesories</Link>
@@ -25,18 +27,18 @@ const navbar = () => {
                    <Link to="/subscriptions">Subscriptions</Link>
                 </li>
             </ul>
-            <div className="icons">
+            <div className="navbar-icons">
                   <a className="icono1" href="#">
-                       <img alt="search" src="../assets/icons/Search.svg"/>
+                       <img alt="search" src="src/assets/images/icons/Search.svg"/>
                   </a>
                   <a className="icono2" href="#">
-                       <img alt="help" src="../assets/icons/Help.svg"/>
+                       <img alt="help" src="src/assets/images/icons/Help.svg"/>
                   </a>
-                  <a className="icono3" href="#">
-                       <img alt="cart" src="../assets/icons/Cart.svg"/>
-                  </a>
+                  <Link to="/cart">
+                       <img alt="cart" src="src/assets/images/icons/Cart.svg"/>
+                  </Link>
                   <a className="icono4" href="#">
-                       <img alt="search" src="../assets/icons/Avatar.svg"/>
+                       <img alt="search" src="src/assets/images/icons/Avatar.svg"/>
                   </a>     
             </div>
         </nav>

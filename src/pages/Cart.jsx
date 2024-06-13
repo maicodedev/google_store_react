@@ -1,1 +1,10 @@
-<h1></h1>
+import React from 'react'
+
+export const Cart = () => {
+    return (
+      <>
+      CART
+      </>
+    )
+  }
+  

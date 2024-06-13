@@ -1,19 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import ProductList from './productList'
+
+import { Routes, Route } from "react-router-dom";
+import {Phones} from "./pages/Phones.jsx";
+import {Earbuds} from "./pages/Earbuds.jsx";
+import {Watches} from "./pages/Watches.jsx";
+import {Accesories} from "./pages/Accesories.jsx";
+import {SmartHome} from "./pages/SmartHome.jsx";
+import {Subscriptions} from "./pages/Subscriptions.jsx";
 
 function App() {
-  /* const [count, setCount] = useState(0) */
 
-  return (
-    <>
-    <ProductList/>
-    </>
+   return (
+       <Routes>
+         <Route path="/phones" element={<Phones/>} />
+         <Route path="/earbuds" element={<Earbuds/>} />
+         <Route path="/watches" element={<Watches/>} />
+         <Route path="/accesories" element={<Accesories/>} />
+         <Route path="/smarthome" element={<SmartHome/>} /> 
+         <Route path="/subscriptions" element={<Subscriptions/>} />
+       </Routes>
   )
 }
 
-export default App 
-
-
+export default App;

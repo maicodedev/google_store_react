@@ -8,6 +8,7 @@ import SmartHome from "./Nav/SmartHome.jsx";
 import Cart from "./pages/Cart.jsx"
 import Subscriptions from "./Nav/Subscriptions.jsx";
 import Navbar from './Nav/navbar.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
          <Route path="/smarthome" element={<SmartHome/>} /> 
          <Route path="/subscriptions" element={<Subscriptions/>} />
          <Route path="/cart" element={<Cart />} />
+         <Route path="/*" element={<Footer />} />
        </Routes>
     </>  
   )

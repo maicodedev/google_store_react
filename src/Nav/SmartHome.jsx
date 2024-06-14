@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const SmartHome = () => {
+ const SmartHome = () => {
   return (
     <>
     SmartHome
     </>
   )
 }
+export default SmartHome;

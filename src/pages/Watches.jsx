@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const Watches = () => {
+ const Watches = () => {
   return (
     <>
     Watches
     </>
   )
 }
+export default Watches;

@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const Subscriptions = () => {
+ const Subscriptions = () => {
   return (
     <>
     Subscriptions
     </>
   )
 }
+export default Subscriptions;

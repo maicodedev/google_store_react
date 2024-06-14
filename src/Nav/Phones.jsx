@@ -1,9 +1,10 @@
 import React from 'react'
 
-export const Phones = () => {
+const Phones = () => {
   return (
     <>
     Phones
     </>
   )
 }
+export default Phones;

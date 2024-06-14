@@ -1,7 +1,10 @@
 import React from 'react'
 
-export const Accesories = () => {
+ const Accesories = () => {
   return (
-    <div>Accesories</div>
+    <>
+    Accesories
+    </>
   )
 }
+export default Accesories;

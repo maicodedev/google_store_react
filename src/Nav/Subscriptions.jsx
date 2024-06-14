@@ -1,7 +1,10 @@
 import React from 'react'
 
-export const Subscriptions = () => {
+ const Subscriptions = () => {
   return (
-    <div>Subscriptions</div>
+    <>
+    Subscriptions
+    </>
   )
 }
+export default Subscriptions;

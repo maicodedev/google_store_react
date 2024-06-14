@@ -1,1 +1,1 @@
-export default ProductList;
+export default ProductsList;

@@ -1,10 +1,12 @@
-import React from 'react'
 
- const Cart = () => {
+import React from 'react';
+
+const Cart = () => {
     return (
-      <>
-      CART
-      </>
+          <>
+           CART
+          </>
     )
-  }
- export default Cart; 
+};
+
+export default Cart;

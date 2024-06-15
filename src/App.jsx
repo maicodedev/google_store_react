@@ -1,4 +1,4 @@
-
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Phones from "./Nav/Phones.jsx";
 import Earbuds from "./pages/Earbuds.jsx";
@@ -8,6 +8,7 @@ import SmartHome from "./Nav/SmartHome.jsx";
 import Cart from "./pages/Cart.jsx"
 import Subscriptions from "./Nav/Subscriptions.jsx";
 import Navbar from './Nav/navbar.jsx';
+
 
 function App() {
 

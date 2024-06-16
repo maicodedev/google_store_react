@@ -4,6 +4,9 @@
     margin: 0;
 }
 .see {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline; 
     margin-left: 20px;
     margin-top: 50px;
 }
@@ -11,7 +14,7 @@
 .see p.seepro {
     display: inline-block;
     vertical-align: middle; 
-    padding: 50px 10px  1px;
+    padding: 50px 10px  1px; 
 }
 .see p.seepro {
     color: #353A49;
@@ -24,11 +27,12 @@
 
 .column1, .column2, .column3 {
     width: 100%; 
-}
+} 
 .column1 {
-    width: 10%;
+    width: 80px;
     margin-top: 75px;
     margin-right: 25px;
+    height: 450px;
     }
 
 .ears-container {
@@ -58,16 +62,17 @@
 }
 
  .column2 {
-    width: 40%;
+    width: 700px;
+    height: 550px;
 } 
 
 .rectangle {
     width: 700px;
-    height: 554px;
+    height: 550px;
     background-color: #f8f9fa;
     border-radius: 20px;
     position: relative;
-    margin: 10px ;
+
 }
 
 .rectangle img {
@@ -80,37 +85,47 @@
 }
 
 .column3 {
-    width: 100%;
-    margin-left: 10px; 
+    width: 400px;
+    height: 700px;
+    margin-left: 50px; 
 }
 
 .product{
     margin-top: 10px;
-    width: 100%;
-    height: 200px;
-    margin-bottom: 100px;
-}
-
-.line {
-    background: #353A49;
-    width: 98%;
-    height: 1px;
-    margin-bottom: 45px;
-    margin-bottom: 30px;
-}
-
-p {
-    size: 8px;
-    color: #353A49;
+    width: 600px;
+    height: 100px;
+    margin-bottom: 50px;
+    margin-left: 30px;
 }
 .title {
     font-size: 35px;
+    margin-bottom: 20px;
+}
+.music{
+    margin-bottom: 20px;
+}
+.precio_1{
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+.line {
+    background: #353A49;
+    width: 540px;
+    height: 1px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+.choose{
+    margin-left: 35px;
 }
 
 .container1 {
     display: flex;
     margin-top: 20px;
-} 
+    margin-left: 35px;
+}  
 
 .circle {
     width: 25px;
@@ -149,16 +164,25 @@ p {
     border-color: 2px solid rgb(233, 80, 80);
 }
 
+
+.addtocartcontainer{
+    width: 580px;
+    height: 300px;
+    margin-top: 200px;
+}
+.price{
+    margin-left: 35px;
+}
 .line1{
     background: #353A49;
-    width: 95%;
+    width: 90%;
     height: 1px;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 35px;
     margin-bottom: 25px;
 }
 .addtocartline{
-    margin-left: 20px;
+    margin-left: 35px;
 }
 .numberbox{
     border-radius: 5px;
@@ -170,14 +194,20 @@ p {
 }
 .addtocart{
     background-color: #1a73f8;
-    width: 450px;
+    width: 440px;
     height: 50px; 
     border-radius: 5px;
     border-color: #1a73f8;
 }
 
 .delivery {
-    margin-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: 35px;
     margin-top: 40px;
     font-size: 14px;
+}
+p{
+    margin-left: 10px;
 }

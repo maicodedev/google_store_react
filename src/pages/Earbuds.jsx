@@ -40,14 +40,14 @@ const Earbuds = () => {
                       <div className="product">
                                   <h1 className="title">Google Pixel Buds Pro</h1>
                               
-                                  <p>Music & Sound</p>
+                                  <p className="music">Music & Sound</p>
                                   
-                                  <h3>229 €</h3>
+                                  <h3 className="precio_1">229 €</h3>
                       </div>
                       
-                      <div>
+        <div>
                         <div className="line"></div>
-                        <p>Choose a color</p>
+                        <p className="choose">Choose a color</p>
                                       <div className="container1">
                                                 <div className="circle blue"></div>
                                                 <div className="circle beige"></div>

@@ -14,21 +14,21 @@ const Smartwatch = () => {
                  <img src={ArrowIcon} alt="Arrow" className="arrow" />
                  <p className="seepro">See product details</p>
           </div>
-           <div className="container">
-                       <div className="column2">
-                            <div className="rectangle">
+           <section className="container_2">
+                       <div className="column_2">
+                            <div className="rectangle_2">
                                     <img src={smartwatch_black} alt="smartwatch" />
                             </div>
                         </div>
-                            <div className="column3">
-                                    <div className="product">
-                                            <h1 className="title">Fitbit Inspire 3</h1><br/>
-                                            <p>Health & Fitness Tracker</p><br />
-                                            <h3>99,95 €</h3>
+                            <div className="column_3">
+                                    <div className="product_2">
+                                            <h1 className="title">Fitbit Inspire 3</h1>
+                                            <p className=" health">Health & Fitness Tracker</p>
+                                            <h3 className="precio_2">99,95 €</h3>
                                     </div>
-                                    <div className="line"/>
+                                    <div className="line_2"/>
                                     <div>
-                                    <p className="choose">Choose a color</p>
+                                    <p className="choose_2">Choose a color</p>
                                     <div className="models">
                                         <div className="colormodels">
                                                     <div className="model1">
@@ -48,15 +48,12 @@ const Smartwatch = () => {
                             </div>
                             <div className="addtocartcontainer">
                                     <div>
-                                       <h2>99,95 €</h2>
+                                       <h2 className="price_3">99,95 €</h2>
                                        <div className="line1"/>
                                     </div>
                                     <div className="addtocartline">
-                                            <button className="numberbox">
-                                                 <a href="#" className="number">1</a>
-                                                 <a href="#" className="triangle">▾</a>
-                                            </button>
-                                            <button className="addtocart">Add to Cart</button>
+                                                 <input className='numberbox' id='number' type='number' placeholder='1' min={'1'} max={'99'}></input>
+                                                 <button className="addtocart">Add to Cart</button>
                                     </div>
                                     <div className="delivery">
                                             <img src={DeliveryIcon} alt="deliveryicon" className="deliveryicon" />
@@ -64,7 +61,7 @@ const Smartwatch = () => {
                                     </div>
                             </div>
                      </div>
-          </div>
+          </section>
     </main>
   );
 };

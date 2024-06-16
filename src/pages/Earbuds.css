@@ -22,16 +22,13 @@
 }
 .container {
     display: flex;
-    width: 100%; 
 }
 
-.column1, .column2, .column3 {
-    width: 100%; 
-} 
+
 .column1 {
     width: 80px;
-    margin-top: 75px;
-    margin-right: 25px;
+    margin-top: 80px;
+    margin-right: 80px;
     height: 450px;
     }
 
@@ -64,6 +61,8 @@
  .column2 {
     width: 700px;
     height: 550px;
+    margin-right: 50px;
+    margin-top: 15px;
 } 
 
 .rectangle {
@@ -85,9 +84,8 @@
 }
 
 .column3 {
-    width: 400px;
+    width: 600px;
     height: 700px;
-    margin-left: 50px; 
 }
 
 .product{
@@ -95,14 +93,16 @@
     width: 600px;
     height: 100px;
     margin-bottom: 50px;
-    margin-left: 30px;
+    margin-left: 5px;
 }
 .title {
     font-size: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .music{
     margin-bottom: 20px;
+    size: 8px;
+    color: #353A49;
 }
 .precio_1{
     margin-left: 10px;
@@ -113,18 +113,19 @@
     background: #353A49;
     width: 540px;
     height: 1px;
-    margin-bottom: 25px;
-    margin-left: 30px;
+    margin-bottom: 35px;
+    margin-left: 5px;
 }
 
 .choose{
-    margin-left: 35px;
+    margin-left: 5px;
+    margin-bottom: 25px;
 }
 
 .container1 {
     display: flex;
     margin-top: 20px;
-    margin-left: 35px;
+    margin-left: 5px;
 }  
 
 .circle {
@@ -165,36 +166,36 @@
 }
 
 
-.addtocartcontainer{
+.addtocartcontainer1{
     width: 580px;
     height: 300px;
     margin-top: 200px;
 }
 .price{
-    margin-left: 35px;
+    margin-left: 5px;
 }
-.line1{
+.line_1{
     background: #353A49;
     width: 90%;
     height: 1px;
     margin-top: 25px;
-    margin-left: 35px;
+    margin-left: 5px;
     margin-bottom: 25px;
 }
-.addtocartline{
-    margin-left: 35px;
+.addtocartline1{
+    margin-left: 5px;
 }
 .numberbox{
     border-radius: 5px;
     background-color: white;
-    width: 80px;
-    height: 50px;
+    width: 60px;
+    height: 45px;
     margin-right: 20px;
     border-color: #353A49;
 }
 .addtocart{
     background-color: #1a73f8;
-    width: 440px;
+    width: 450px;
     height: 50px; 
     border-radius: 5px;
     border-color: #1a73f8;
@@ -204,7 +205,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: baseline;
-    margin-left: 35px;
+    margin-left: 5px;
     margin-top: 40px;
     font-size: 14px;
 }

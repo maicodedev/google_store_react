@@ -7,9 +7,10 @@ import Earbuds03 from '../assets/images/earbuds/earbuds_03.png';
 import Earbuds04 from '../assets/images/earbuds/earbuds_04.png';
 import './Earbuds.css';
 
+
 const Earbuds = () => {
   return (
-    <main>
+  <main>
       <div className="see">
                   <img src={ArrowIcon} alt="Arrow" className="arrow" />
                   <p className="seepro">See product details</p>
@@ -45,7 +46,7 @@ const Earbuds = () => {
                                   <h3 className="precio_1">229 €</h3>
                       </div>
                       
-        <div>
+                      <div>
                         <div className="line"></div>
                         <p className="choose">Choose a color</p>
                                       <div className="container1">
@@ -57,17 +58,13 @@ const Earbuds = () => {
                                                 <div className="circle red"></div>
                                       </div>
                       </div>
-                <div className="addtocartcontainer">
+                <div className="addtocartcontainer1">
                           <div>
                             <h2 className="price">229 €</h2>
-                            <div className="line1"/>
+                            <div className="line_1"/>
                           </div>
-                <div className="addtocartline">
-                          <button className="numberbox">
-                                    <a href="#" className="number">1</a>
-                                    <a href="#" className="triangle">▾</a>
-                          </button>
-                  
+                <div className="addtocartline1">
+                          <input className='numberbox' id='number' type='number' placeholder='1' min={'1'} max={'99'}></input>
                           <button className="addtocart">Add to Cart</button>
                   </div>
            
@@ -80,8 +77,7 @@ const Earbuds = () => {
           
         </div>
       </section>
-    </main>
+  </main>
   );
 };
-
 export default Earbuds;

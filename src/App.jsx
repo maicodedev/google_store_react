@@ -28,6 +28,17 @@ function App() {
          <Route path="/cart" element={<Cart />} />
          <Route path="/*" element={<Footer />} />
        </Routes>
+    <Footer></Footer> 
+    <Routes>
+         <Route path="/phones" element={<Phones/>} />
+         <Route path="/earbuds" element={<Earbuds/>} />
+         <Route path="/watches" element={<Watches/>} />
+         <Route path="/accesories" element={<Accesories/>} />
+         <Route path="/smarthome" element={<SmartHome/>} /> 
+         <Route path="/subscriptions" element={<Subscriptions/>} />
+         <Route path="/cart" element={<Cart />} />
+         <Route path="/*" element={<Footer />} />
+       </Routes>
     </>  
   )
 }

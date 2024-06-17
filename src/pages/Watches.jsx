@@ -7,6 +7,8 @@ import smartwatch_pink from '../assets/images/smartwatch/smartwatch_pink.png';
 import smartwatch_yellow from '../assets/images/smartwatch/smartwatch_yellow.png';
 import './Watches.css'; 
 
+
+
 const Smartwatch = () => {
   return (
       <main>

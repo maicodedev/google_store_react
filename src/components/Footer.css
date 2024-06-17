@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    font-family: "Inter", sans-serif;
+    font-size: 8px;
+    background-color: #F8F9FA;
+    padding: 10px;
+    color: #57626B;
+    bottom: 0%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.socialmedia {
+    display: inline-block;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.instagram {
+    margin-left: 10px;
+}
+
+.facebook {
+    margin-left: 10px;
+}
+
+.youtube {
+    margin-left: 10px;
+}
+
+.tiktok {
+    margin-left: 10px;
+}
+
+.legalterms {
+    display: inline-block;
+    right: 240px;
+    position: absolute;
+}
+
+.flag {
+    margin-left: 400px;
+
+}
+
+.spain {
+    margin-left: 7px;
+}
+
+.privacy {
+    margin-right: 60px
+}
+
+.googlenest {
+    margin-right: 60px;
+}
+
+.sales {
+    margin-right: 60px;
+}
+
+.terms {
+    margin-right: 60px;
+}

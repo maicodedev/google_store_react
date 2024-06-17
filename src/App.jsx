@@ -10,6 +10,8 @@ import Subscriptions from "./Nav/Subscriptions.jsx";
 import Navbar from './Nav/navbar.jsx';
 
 
+
+
 function App() {
 
    return (

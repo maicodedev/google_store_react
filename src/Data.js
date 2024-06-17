@@ -1,7 +1,10 @@
- export const data = [
+import Earbuds01 from '../src/assets/images/earbuds/earbuds_01.png';
+import SmartwatchBlack from '../src/assets/images/smartwatch/smartwatch_black.png';
+
+   const data = [
 {   
     id: 1,
-    img: '../assets/images/earbuds/earbuds_01.png',
+    img: Earbuds01,
     nameProduct: 'Earbuds',
     price: 229.00,
     quantity: 1,
@@ -9,8 +12,9 @@
 
 {
     id:2,
-    img: '../assets/images/smartwatch/smartwatche_black.png',
+    img: SmartwatchBlack,
     price: 99.95,
     quantity: 2,
-},
+}, 
 ];
+export default data;

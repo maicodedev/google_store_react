@@ -1,8 +1,9 @@
 
-import React from 'react';
+import React, { useState } from 'react';
+import data from '../Data';  
 
 const Cart = () => {
-    return (
+  return (
           <>
            CART
           </>
